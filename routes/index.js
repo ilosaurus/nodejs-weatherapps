@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const fetch = require("node-fetch");
 require('dotenv').config();
-const OWM_API_KEY = process.env.OWM_API_KEY;
-const UNITS = process.env.UNITS;
+const OWM_API_KEY = '5227434d3c45a49886fd1f4e53cb6954';
+const UNITS = 'metric';
 
 /* GET home page. */
 router.get('/', function(req, res) {
